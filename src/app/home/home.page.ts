@@ -30,7 +30,7 @@ vertom(event: Event){
 }
 
 parar(){
-  this.ls.parar(this.formTxt.get('texto')?.value);
+  this.ls.parar();
 }
 
 }
