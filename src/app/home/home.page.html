@@ -20,7 +20,7 @@
       <ion-textarea
         fill="outline" placeholder="Digete um texto" formControlName="texto"></ion-textarea>
 
-      <ion-button expand="full" (click)="ler()"  [disabled]="formText.invalid">leia</ion-button>
+      <ion-button expand="full" (click)="ler()"  [disabled]="formTxt.invalid">leia</ion-button>
       <ion-item>
         <ion-label>taxa</ion-label>
         <ion-range  min="0.5" max="2" step="0.1" color="primary" [pinFormatter]="pinFormatter" formControlName="taxa"></ion-range>
