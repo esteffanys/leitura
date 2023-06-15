@@ -24,7 +24,9 @@ this.formTxt = fb.group({
 
 })
 }
-  
+  falar(){
+   
+  }
 ler(){
   this.ls.ler(this.formTxt.get('texto')?.value,
   this.formTxt.get('taxa')?.value,

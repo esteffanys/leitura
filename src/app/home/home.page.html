@@ -18,7 +18,12 @@
     </ion-header>
 <form [formGroup]="formTxt">
       <ion-textarea
+      ion-butto
         fill="outline" placeholder="Digete um texto" formControlName="texto"></ion-textarea>
+
+        <ion-button expand=full (click)="falar()"> Gravar
+          <ion-icon name="stop" ></ion-icon>
+        </ion-button>
 
       <ion-button expand="full" (click)="ler()"  [disabled]="formTxt.invalid">leia</ion-button>
       <ion-item>
